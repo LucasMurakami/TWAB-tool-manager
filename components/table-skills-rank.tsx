@@ -13,11 +13,18 @@ function TableSkillRanks() {
 
   const [items, setItems] = useState<SkillRank[]>([]);
   const [filter, setFilter] = useState(''); 
+  
+  let PATH = process.env.DEV_PATH || '';
+
+  if (process.env.NODE_ENV === 'production') {
+    PATH = process.env.PROD_PATH || '';
+  }  
 
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`${process.env.DEV_PATH|| ''}/json/Skills_Rank.json`)
+        console.log('PATH:', PATH);
+        const response = await fetch(`${PATH}/json/Skills_Rank.json`)
         console.log(response);
         const jsonData = await response.json();
         interface SkillModifier {

@@ -32,6 +32,12 @@ function TableSkillsModifiers() {
   const [showScalingModal, setShowScalingModal] = useState<boolean>(false);
   const [isLargeScreen, setIsLargeScreen] = useState<boolean>(false);
 
+  let PATH = process.env.DEV_PATH || '';
+
+  if (process.env.NODE_ENV === 'production') {
+    PATH = process.env.PROD_PATH || '';
+  }  
+
   const filteredItems = useMemo(() => {
     if (!filter) return items;
     return items.filter(item =>
@@ -45,7 +51,8 @@ function TableSkillsModifiers() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`${process.env.DEV_PATH|| ''}/json/Skills_Modifier.json`);
+        console.log('PATH:', PATH);
+        const response = await fetch(`${PATH|| ''}/json/Skills_Modifier.json`);
         const jsonData = await response.json();
         const formattedData = jsonData.data.map((item: any) => ({          
           ID: item.ID,
@@ -68,7 +75,8 @@ function TableSkillsModifiers() {
 
     async function fetchScalingData() {
       try {
-        const response = await fetch(`${process.env.DEV_PATH|| ''}/json/Scaling.json`);
+        console.log('PATH:', PATH);
+        const response = await fetch(`${PATH|| ''}/json/Scaling.json`);
         const jsonData = await response.json();
         setScalingData(jsonData.data);
       } catch (error) {
