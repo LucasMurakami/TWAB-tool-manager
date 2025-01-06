@@ -17,7 +17,7 @@ function TableSkillRanks() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('/json/Skills Rank.json')
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/json/Skills Rank.json`)
         const jsonData = await response.json();
         interface SkillModifier {
             ID: number;
