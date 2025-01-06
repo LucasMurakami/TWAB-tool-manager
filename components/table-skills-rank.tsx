@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import getConfig from 'next/config'
 
 function TableSkillRanks() {
   interface SkillRank {
@@ -14,17 +15,14 @@ function TableSkillRanks() {
   const [items, setItems] = useState<SkillRank[]>([]);
   const [filter, setFilter] = useState(''); 
   
-  let PATH = process.env.DEV_PATH || '';
-
-  if (process.env.NODE_ENV === 'production') {
-    PATH = process.env.PROD_PATH || '';
-  }  
+  const { publicRuntimeConfig } = getConfig();
+  const basePath = publicRuntimeConfig.basePath;
 
   useEffect(() => {
     async function fetchData() {
       try {
-        console.log('PATH:', PATH);
-        const response = await fetch(`${PATH}/json/Skills_Rank.json`)
+        console.log('PATH:', basePath);
+        const response = await fetch(`${basePath}/json/Skills_Rank.json`)
         console.log(response);
         const jsonData = await response.json();
         interface SkillModifier {
