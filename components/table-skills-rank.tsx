@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
-import getConfig from 'next/config'
 
 function TableSkillRanks() {
   interface SkillRank {
@@ -14,9 +13,8 @@ function TableSkillRanks() {
 
   const [items, setItems] = useState<SkillRank[]>([]);
   const [filter, setFilter] = useState(''); 
-  
-  const { publicRuntimeConfig } = getConfig();
-  const basePath = publicRuntimeConfig.basePath;
+
+  let basePath = process.env.DEV_PATH || '';
 
   useEffect(() => {
     async function fetchData() {

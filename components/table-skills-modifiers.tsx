@@ -35,7 +35,7 @@ function TableSkillsModifiers() {
   let PATH = process.env.DEV_PATH || '';
 
   if (process.env.NODE_ENV === 'production') {
-    PATH = process.env.PROD_PATH || '';
+    PATH = process.env.NEXT_PUBLIC_PROD_PATH || '';
   }  
 
   const filteredItems = useMemo(() => {
