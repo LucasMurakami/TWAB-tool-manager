@@ -1,0 +1,108 @@
+{
+    "data": [
+        {
+            "ID": "0",
+            "Modifier": "1",
+            "Damage": "1d3",
+            "Walking": "4.5 ft",
+            "DOT": "1d3",
+            "AC": "1"
+        },
+        {
+            "ID": "1",
+            "Modifier": "1",
+            "Damage": "1d4",
+            "Walking": "4.5 ft",
+            "DOT": "1d3",
+            "AC": "1"
+        },
+        {
+            "ID": "2",
+            "Modifier": "1",
+            "Damage": "1d6",
+            "Walking": "4.5 ft",
+            "DOT": "1d4",
+            "AC": "1"
+        },
+        {
+            "ID": "3",
+            "Modifier": "1",
+            "Damage": "1d8",
+            "Walking": "4.5 ft",
+            "DOT": "1d6",
+            "AC": "1"
+        },
+        {
+            "ID": "4",
+            "Modifier": "1",
+            "Damage": "1d10",
+            "Walking": "7.5 ft",
+            "DOT": "1d8",
+            "AC": "1"
+        },
+        {
+            "ID": "5",
+            "Modifier": "1",
+            "Damage": "2d6",
+            "Walking": "7.5 ft",
+            "DOT": "2d4",
+            "AC": "2"
+        },
+        {
+            "ID": "6",
+            "Modifier": "2",
+            "Damage": "2d8",
+            "Walking": "7.5 ft",
+            "DOT": "2d6",
+            "AC": "2"
+        },
+        {
+            "ID": "7",
+            "Modifier": "2",
+            "Damage": "2d10",
+            "Walking": "9 ft",
+            "DOT": "2d6",
+            "AC": "2"
+        },
+        {
+            "ID": "8",
+            "Modifier": "2",
+            "Damage": "3d6",
+            "Walking": "9 ft",
+            "DOT": "2d8",
+            "AC": "2"
+        },
+        {
+            "ID": "9",
+            "Modifier": "3",
+            "Damage": "3d8",
+            "Walking": "9 ft",
+            "DOT": "2d8",
+            "AC": "2"
+        },
+        {
+            "ID": "10",
+            "Modifier": "3",
+            "Damage": "3d10",
+            "Walking": "9 ft",
+            "DOT": "2d10",
+            "AC": "3"
+        },
+        {
+            "ID": "11",
+            "Modifier": "3",
+            "Damage": "4d8",
+            "Walking": "18 ft",
+            "DOT": "2d10",
+            "AC": "3"
+        },
+        {
+            "ID": "12",
+            "Modifier": "4",
+            "Damage": "4d10",
+            "Walking": "24.5 ft",
+            "DOT": "3d8",
+            "AC": "3"
+        }
+    ]
+}
