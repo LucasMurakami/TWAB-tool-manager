@@ -53,7 +53,7 @@ export function KanbanBoard() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/json/Skills Modifier.json`);
+        const response = await fetch(`../json/Skills Modifier.json`);
         const jsonData = await response.json();        
         const newTasks = jsonData.data.map((item: any) => ({          
           ID: item.ID,

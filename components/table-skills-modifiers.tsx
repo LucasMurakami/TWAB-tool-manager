@@ -45,7 +45,7 @@ function TableSkillsModifiers() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/json/Skills Modifier.json`);
+        const response = await fetch(`../json/Skills Modifier.json`);
         const jsonData = await response.json();
         const formattedData = jsonData.data.map((item: any) => ({          
           ID: item.ID,
@@ -68,7 +68,7 @@ function TableSkillsModifiers() {
 
     async function fetchScalingData() {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/json/Scaling.json`);
+        const response = await fetch(`../json/Scaling.json`);
         const jsonData = await response.json();
         setScalingData(jsonData.data);
       } catch (error) {
