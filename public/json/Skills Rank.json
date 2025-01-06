@@ -1,0 +1,172 @@
+{
+    "data": [
+        {
+            "Rank": "F-",
+            "Description": "The weakest rank—barely functional, often considered useless at this stage.",
+            "Modifier Slots": "0",
+            "ID": "0"
+        },
+        {
+            "Rank": "F",
+            "Description": "A rank that offers minimal utility, with little to no practical impact in most scenarios.",
+            "Modifier Slots": "0",
+            "ID": "1"
+        },
+        {
+            "Rank": "F+",
+            "Description": "Slightly better than F-, but still lacks effectiveness or clear functionality.",
+            "Modifier Slots": "0",
+            "ID": "2"
+        },
+        {
+            "Rank": "E-",
+            "Description": "Marginally improved, but still underwhelming. Often niche or overly situational in application.",
+            "Modifier Slots": "1",
+            "ID": "3"
+        },
+        {
+            "Rank": "E",
+            "Description": "A skill that shows improvement, though still far from ideal. Limited utility or overshadowed by better options.",
+            "Modifier Slots": "1",
+            "ID": "4"
+        },
+        {
+            "Rank": "E+",
+            "Description": "The highest within the \"E\" tier, slightly more versatile but still requires more development to shine.",
+            "Modifier Slots": "1",
+            "ID": "5"
+        },
+        {
+            "Rank": "D-",
+            "Description": "A skill that fulfills its basic purpose but lacks versatility or impact.",
+            "Modifier Slots": "2",
+            "ID": "6"
+        },
+        {
+            "Rank": "D",
+            "Description": "A functional skill that performs its role adequately but doesn't stand out.",
+            "Modifier Slots": "2",
+            "ID": "7"
+        },
+        {
+            "Rank": "D+",
+            "Description": "A reliable skill that gets the job done but remains average in terms of effectiveness.",
+            "Modifier Slots": "2",
+            "ID": "8"
+        },
+        {
+            "Rank": "C-",
+            "Description": "An average skill that balances utility and effectiveness, neither exceptional nor weak.",
+            "Modifier Slots": "3",
+            "ID": "9"
+        },
+        {
+            "Rank": "C",
+            "Description": "A balanced skill that can perform well under the right circumstances.",
+            "Modifier Slots": "3",
+            "ID": "10"
+        },
+        {
+            "Rank": "C+",
+            "Description": "A solid skill with slightly above-average performance, offering good utility or impact.",
+            "Modifier Slots": "4",
+            "ID": "11"
+        },
+        {
+            "Rank": "B-",
+            "Description": "A strong and dependable skill, offering significant value in most situations.",
+            "Modifier Slots": "5",
+            "ID": "12"
+        },
+        {
+            "Rank": "B",
+            "Description": "A robust skill that performs consistently well, often forming a core part of a strategy.",
+            "Modifier Slots": "6",
+            "ID": "13"
+        },
+        {
+            "Rank": "B+",
+            "Description": "A high-performing skill with notable strengths, offering considerable advantages.",
+            "Modifier Slots": "6",
+            "ID": "14"
+        },
+        {
+            "Rank": "A-",
+            "Description": "An advanced skill with high effectiveness, showcasing notable power or versatility.",
+            "Modifier Slots": "7",
+            "ID": "15"
+        },
+        {
+            "Rank": "A",
+            "Description": "A top-tier skill that provides excellent results, suitable for high-level scenarios.",
+            "Modifier Slots": "8",
+            "ID": "16"
+        },
+        {
+            "Rank": "A+",
+            "Description": "A highly potent skill, almost unmatched in its tier, delivering remarkable impact.",
+            "Modifier Slots": "9",
+            "ID": "17"
+        },
+        {
+            "Rank": "S-",
+            "Description": "A skill of extraordinary quality, offering impressive effectiveness and utility.",
+            "Modifier Slots": "12",
+            "ID": "18"
+        },
+        {
+            "Rank": "S",
+            "Description": "A superior skill that stands out for its exceptional performance and rare capabilities.",
+            "Modifier Slots": "14",
+            "ID": "19"
+        },
+        {
+            "Rank": "S+",
+            "Description": "A skill of legendary quality, unmatched in effectiveness and often game-changing.",
+            "Modifier Slots": "16",
+            "ID": "20"
+        },
+        {
+            "Rank": "SS-",
+            "Description": "A rare and exceptional skill, surpassing most others in its power and expertise.",
+            "Modifier Slots": "16",
+            "ID": "21"
+        },
+        {
+            "Rank": "SS",
+            "Description": "An elite skill that signifies extraordinary mastery, suitable for rare or critical situations.",
+            "Modifier Slots": "18",
+            "ID": "22"
+        },
+        {
+            "Rank": "SS+",
+            "Description": "A top-tier skill that exudes excellence, often unique and highly sought after.",
+            "Modifier Slots": "20",
+            "ID": "23"
+        },
+        {
+            "Rank": "SSS-",
+            "Description": "A mythical skill of unmatched power, rivaled by very few in existence.",
+            "Modifier Slots": "25",
+            "ID": "24"
+        },
+        {
+            "Rank": "SSS",
+            "Description": "A legendary skill that defines mastery and excellence at an almost unparalleled level.",
+            "Modifier Slots": "30",
+            "ID": "25"
+        },
+        {
+            "Rank": "SSS+",
+            "Description": "A divine-tier skill, representing the absolute pinnacle of expertise and performance.",
+            "Modifier Slots": "35",
+            "ID": "26"
+        },
+        {
+            "Rank": "EX",
+            "Description": "Beyond mortal limits, this skill is the peak of mastery, representing perfection in every sense.",
+            "Modifier Slots": "50",
+            "ID": "27"
+        }
+    ]
+}

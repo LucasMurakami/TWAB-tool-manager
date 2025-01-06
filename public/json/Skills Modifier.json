@@ -1,0 +1,193 @@
+{
+    "data": [
+        {
+            "Effect": "Healing",
+            "Description": "Restores hit points to a creature.",
+            "Mechanic Description": "The target regains hit points, usually based on the caster's spellcasting ability or a fixed value (e.g., 1d3 + spellcasting ability modifier).",
+            "Modifier": "3",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "0"
+        },
+        {
+            "Effect": "Damage",
+            "Description": "Deals damage to a creature or area.",
+            "Mechanic Description": "Targets suffer damage based on a damage roll (e.g., 1d3) or a fixed value. This is considered the default source of the user's main damage.",
+            "Modifier": "1",
+            "Scaling": "TBA",
+            "Unlocked": "True",
+            "ID": "1"
+        },
+        {
+            "Effect": "Debuff",
+            "Description": "Weakens or hinders a creature.",
+            "Mechanic Description": "Applies negative effects to the target, such as reduced attack rolls, movement speed, or ability checks. Any unique debuff is considered interpretative.",
+            "Modifier": "2",
+            "Scaling": "TBA",
+            "Unlocked": "True",
+            "ID": "2"
+        },
+        {
+            "Effect": "Buff",
+            "Description": "Enhances a creature's abilities or stats.",
+            "Mechanic Description": "Grants bonuses such as increased damage, defense, or speed. Default values: damage buff uses 1d3, defense buff grants +1 AC, and speed buff adds 4.5 ft. Any unique buff is considered interpretative.",
+            "Modifier": "2",
+            "Scaling": "TBA",
+            "Unlocked": "True",
+            "ID": "3"
+        },
+        {
+            "Effect": "Control",
+            "Description": "Restricts a creature’s actions or movements.",
+            "Mechanic Description": "Applies effects like restraining, paralyzing, or confusing the target, significantly limiting their abilities. Any unique control effect is considered interpretative.",
+            "Modifier": "3",
+            "Scaling": "TBA",
+            "Unlocked": "True",
+            "ID": "4"
+        },
+        {
+            "Effect": "Summoning",
+            "Description": "Summons creatures or objects to assist the caster.",
+            "Mechanic Description": "Conjures creatures or objects to obey the caster’s commands, often with limited strength or utility.",
+            "Modifier": "10",
+            "Scaling": "TBA",
+            "Unlocked": "True",
+            "ID": "5"
+        },
+        {
+            "Effect": "Teleportation",
+            "Description": "Instantly moves the caster or another creature to a different location.",
+            "Mechanic Description": "Transports the caster or a target to a different location, usually within a specific range.",
+            "Modifier": "6",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "6"
+        },
+        {
+            "Effect": "Area of Effect",
+            "Description": "Targets multiple creatures in a defined area.",
+            "Mechanic Description": "Applies effects like damage, healing, buffs, or debuffs to all creatures within a certain radius. Typically includes a saving throw to reduce the effect.",
+            "Modifier": "4",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "7"
+        },
+        {
+            "Effect": "Invisibility",
+            "Description": "Makes a creature unseen by others.",
+            "Mechanic Description": "Renders the target invisible, making it harder for enemies to attack them. The effect may still be nullified under specific conditions.",
+            "Modifier": "3",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "8"
+        },
+        {
+            "Effect": "Fear",
+            "Description": "Instills fear in creatures.",
+            "Mechanic Description": "Affected creatures must make a saving throw or become frightened, often causing them to flee or become unable to act effectively.",
+            "Modifier": "4",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "9"
+        },
+        {
+            "Effect": "Charm",
+            "Description": "Influences a creature’s perception and allegiance.",
+            "Mechanic Description": "Makes a creature friendly or charmed by the caster, reducing hostility or improving cooperation.",
+            "Modifier": "5",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "10"
+        },
+        {
+            "Effect": "Control Elements",
+            "Description": "Manipulates one of the basic elements (fire, water, earth, air).",
+            "Mechanic Description": "Allows the caster to control an element, such as summoning fire or shaping earth, for damage or environmental alteration.",
+            "Modifier": "4",
+            "Scaling": "TBA",
+            "Unlocked": "True",
+            "ID": "11"
+        },
+        {
+            "Effect": "Necromancy",
+            "Description": "Manipulates life force or reanimates the dead.",
+            "Mechanic Description": "Drains hit points from living creatures or raises undead servants from corpses.",
+            "Modifier": "7",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "12"
+        },
+        {
+            "Effect": "Divine Intervention",
+            "Description": "Calls upon a deity for aid in dire situations.",
+            "Mechanic Description": "Requests a deity's help, often granting a powerful one-time effect that can significantly alter the outcome of events.",
+            "Modifier": "1",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "13"
+        },
+        {
+            "Effect": "Enchantment",
+            "Description": "Alters the emotions or minds of creatures.",
+            "Mechanic Description": "Makes the target more susceptible to suggestions, commands, or affection, influencing their behavior.",
+            "Modifier": "3",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "14"
+        },
+        {
+            "Effect": "Time Manipulation",
+            "Description": "Manipulates time to speed it up, slow it down, or freeze it.",
+            "Mechanic Description": "Affects time within a localized area or for the caster, granting extra actions or creating temporal effects.",
+            "Modifier": "51",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "15"
+        },
+        {
+            "Effect": "Protection",
+            "Description": "Shields creatures from harm.",
+            "Mechanic Description": "Creates a magical barrier or ward to reduce or negate damage or harmful effects on the target.",
+            "Modifier": "4",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "16"
+        },
+        {
+            "Effect": "Illusion",
+            "Description": "Creates deceptive images or sounds to fool the senses.",
+            "Mechanic Description": "The caster creates an illusion to deceive creatures into perceiving something false.",
+            "Modifier": "3",
+            "Scaling": "TBA",
+            "Unlocked": "False",
+            "ID": "17"
+        },
+        {
+            "Effect": "Interpretative",
+            "Description": "Open to the DM's interpretation.",
+            "Mechanic Description": "Effects are decided by the DM and can vary depending on the situation.",
+            "Modifier": "?",
+            "Scaling": "TBA",
+            "Unlocked": "True",
+            "ID": "18"
+        },
+        {
+            "Effect": "Duration",
+            "Description": "Time the spell remains active.",
+            "Mechanic Description": "Determines the number of rounds the spell is active during combat. Default duration is 3 rounds.",
+            "Modifier": "1",
+            "Scaling": "TBA",
+            "Unlocked": "True",
+            "ID": "19"
+        },
+        {
+            "Effect": "Amount of Use",
+            "Description": "Number of times the skill can be used.",
+            "Mechanic Description": "Limits the number of uses for the skill, defined by the user.",
+            "Modifier": "2",
+            "Scaling": "TBA",
+            "Unlocked": "True",
+            "ID": "20"
+        }
+    ]
+}
