@@ -50,8 +50,8 @@ export function KanbanBoard() {
   let PATH = process.env.DEV_PATH || '';
 
   if (process.env.NODE_ENV === 'production') {
-    PATH = process.env.PROD_PATH || '';
-  }  
+    PATH = process.env.NEXT_PUBLIC_PROD_PATH || '';
+  }   
 
   useEffect(() => {
     setIsClient(true);
@@ -61,7 +61,7 @@ export function KanbanBoard() {
     async function fetchData() {
       try {
         console.log('PATH:', PATH)
-        const response = await fetch(`${PATH}/json/Skills_Modifier.json`);
+        const response = await fetch(`${PATH|| ''}/json/Skills_Modifier.json`);
         const jsonData = await response.json();        
         const newTasks = jsonData.data.map((item: any) => ({          
           ID: item.ID,
