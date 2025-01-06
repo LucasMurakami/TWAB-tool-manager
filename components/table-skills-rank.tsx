@@ -12,12 +12,13 @@ function TableSkillRanks() {
   }
 
   const [items, setItems] = useState<SkillRank[]>([]);
-  const [filter, setFilter] = useState('');
+  const [filter, setFilter] = useState(''); 
 
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/json/Skills Rank.json`)
+        const response = await fetch(`${process.env.DEV_PATH|| ''}/json/Skills_Rank.json`)
+        console.log(response);
         const jsonData = await response.json();
         interface SkillModifier {
             ID: number;
