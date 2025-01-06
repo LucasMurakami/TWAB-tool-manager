@@ -1,5 +1,5 @@
 
-import { KanbanBoard } from "../components/dragAndDropBoard/kanbanBoard";
+import { KanbanBoard } from "@/components/dragAndDropBoard/kanbanBoard";
 
 function FinishedBoard() {
   return (
