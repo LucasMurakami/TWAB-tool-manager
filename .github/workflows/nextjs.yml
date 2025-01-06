@@ -79,7 +79,7 @@ jobs:
           PROD_PATH: /TWAB-tool-manager
         run: |
           echo "NODE_ENV=$NODE_ENV" >> $GITHUB_ENV
-          echo "PROD_PATH=$PROD_PATH" >> $GITHUB_ENV
+          echo "NEXT_PUBLIC_PROD_PATH=$PROD_PATH" >> $GITHUB_ENV
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
