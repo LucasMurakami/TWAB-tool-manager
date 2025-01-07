@@ -24,7 +24,6 @@ function TableSkillRanks() {
     async function fetchData() {
       try {
         const response = await fetch(`${PATH|| ''}/json/Skills_Rank.json`)
-        console.log(response);
         const jsonData = await response.json();
         interface SkillModifier {
             ID: number;
@@ -73,7 +72,7 @@ function TableSkillRanks() {
 
       <div className="flex flex-col gap-4 lg:flex-row">
         {/* Table with Scroll */}
-        <div className="max-h-[70vh] flex-1 overflow-y-auto">
+        <div className="max-h-[80vh] flex-1 overflow-y-auto">
           <Table className="w-full table-auto">
             <TableHeader>
               <TableRow>
