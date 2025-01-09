@@ -17,6 +17,7 @@ export interface Task {
   Unlocked: string;
   ID: UniqueIdentifier;
   ColumnId: columnId;
+  OriginColumnId: string;
 }
 
 interface TaskCardProps {

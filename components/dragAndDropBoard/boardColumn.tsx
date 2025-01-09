@@ -83,8 +83,9 @@ export function BoardColumn({ column, tasks, isOverlay }: BoardColumnProps) {
             <GripVertical />
           </Button>
           <span className="ml-auto"> {column.title}</span>
+          <span className="ml-auto"> {tasks.length}</span>
         </CardHeader>
-        <ScrollArea className="max-h-[75vh] overflow-y-auto">
+        <ScrollArea className="max-h-[50vh] overflow-y-auto ">
           <CardContent className="grid grid-cols-1 gap-4 p-2 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
             <SortableContext items={tasksIds}>
               {tasks.map((task) => (
